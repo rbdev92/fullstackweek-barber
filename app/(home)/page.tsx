@@ -10,7 +10,7 @@ export default async function Home() {
   // chamar prisma e pegar barbearias
   const barbershops = await db.barbershop.findMany({});
   return (
-    <div>
+    <>
       <Header />
 
       <div className="px-5 pt-5">
@@ -56,7 +56,6 @@ export default async function Home() {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 }
-
