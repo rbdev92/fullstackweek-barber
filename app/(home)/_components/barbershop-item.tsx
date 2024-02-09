@@ -20,7 +20,8 @@ const BarbershopItem = ({ barbershop }: BarbershopItemProps) => {
   };
 
   return (
-    <>
+    <div>
+
       <Card className="min-w-[167px] max-w-[167px] rounded-2xl">
         <CardContent className="px-1 py-0">
           <div className="w-full h-[159px] relative">
@@ -60,7 +61,7 @@ const BarbershopItem = ({ barbershop }: BarbershopItemProps) => {
           </div>
         </CardContent>
       </Card>
-    </>
+    </div>
   );
 };
 
